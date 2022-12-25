@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Prosto+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+header h1 {
+    padding-top:0.6rem;
+    transition: 0.5s;
+    font-size: 3rem;
+    background: linear-gradient(128deg, rgb(180, 58, 103) 30%, rgba(253,29,29,1) 60%, rgba(252,176,69,1) 65%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Prosto One', cursive;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+main table {
+    font-family: 'Oswald', sans-serif;;
+}
+
+main table tr th{
+    padding: 10px;
+    font-size: 2.0rem;
+}
+
+main table tr td{
+    padding: 10px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+main table tr td a {
+    transition: 0.3s;
+    text-decoration: none;
+    color: rgb(9, 171, 240);
+}
+
+main table tr td a:hover {
+    transition: 0.3s;
+    color: rgb(0, 119, 255);
+}
